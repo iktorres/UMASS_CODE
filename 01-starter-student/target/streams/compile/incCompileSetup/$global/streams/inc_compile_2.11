@@ -1,0 +1,204 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+11 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$base36$1.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$base36$2.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$isPalindrome$1.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$isPalindrome$2.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$isPalindrome$3.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$minFor$1.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$sumChars$1.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$wordCounter$1$$anonfun$apply$mcVI$sp$1.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$wordCounter$1.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$.class
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics.class
+binary dependencies:
+2 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> C:\Users\Ian\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+11 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$base36$1
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$base36$2
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$isPalindrome$1
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$isPalindrome$2
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$isPalindrome$3
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$minFor$1
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$sumChars$1
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$wordCounter$1
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics.ScalaBasics$$anonfun$wordCounter$1$$anonfun$apply$mcVI$sp$1
+used names:
+99 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> !=
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> %
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> +
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> -
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> ->
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> /
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> <
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> <init>
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> <repeated>
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> >
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> >=
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> AnyRef
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Array
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> BigInt
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Boolean
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Char
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> ClassTag
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Int
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Map
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Predef
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Range
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> ScalaBasics
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> String
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Tuple2
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> Unit
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> _1
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> _2
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> _root_
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> a
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> apply
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> augmentString
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> b
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> base
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> basics
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> by
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> canBuildFrom
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> cc
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> charElement
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> charElementRev
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> compare
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> contains
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> count
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> end
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> fallbackStringCanBuildFrom
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> foreach
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> head
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> i
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> index
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> int2bigInt
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> intArrayOps
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> intWrapper
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> isPalindrome
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> j
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> len
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> len2
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> length
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> limit
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> lines
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> map
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> materializeClassTag
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> math
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> min
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> minRecursive
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> myBase
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> myLetters
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> n
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> ne
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> num
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> number
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> odd
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> package
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> r
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> refArrayOps
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> replaceAll
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> rev
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> reverse
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> s
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> scala
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> slice
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> split
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> start
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> str
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> sum
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> tail
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> takeRight
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> temp
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> to
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> toChar
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> toInt
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> toLowerCase
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> toString
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> unchecked
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> until
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> update
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> while$1
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> while$2
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> while$3
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> withFilter
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> words
+product stamps:
+11 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$base36$1.class -> lastModified(1442944934935)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$base36$2.class -> lastModified(1442944934946)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$isPalindrome$1.class -> lastModified(1442944934955)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$isPalindrome$2.class -> lastModified(1442944934962)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$isPalindrome$3.class -> lastModified(1442944934970)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$minFor$1.class -> lastModified(1442944934978)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$sumChars$1.class -> lastModified(1442944934983)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$wordCounter$1$$anonfun$apply$mcVI$sp$1.class -> lastModified(1442944934996)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$$anonfun$wordCounter$1.class -> lastModified(1442944934989)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics$.class -> lastModified(1442944934920)
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\target\scala-2.11\classes\basics\ScalaBasics.class -> lastModified(1442944934821)
+source stamps:
+1 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> hash(1ea90eaaef9c086ec8d7ee7332228550a996239e)
+binary stamps:
+2 items
+C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar -> lastModified(1441753623010)
+C:\Users\Ian\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> lastModified(1441753333601)
+class names:
+2 items
+C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar -> java.lang.Object
+C:\Users\Ian\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> scala.MatchError
+internal apis:
+1 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBTipndAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAH3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHylnFx0AAZub3RpZnlzcQB+AAzTEXobdAAMbWluUmVjdXJzaXZlc3EAfgAMctepw3QABHdhaXRzcQB+AAwgIHFcdAANJGFzSW5zdGFuY2VPZnNxAH4ADDKh3Mt0AAxpc1BhbGluZHJvbWVzcQB+AAyBIdIWdAAGZXF1YWxzc3EAfgAMGlaKHXQADGFzSW5zdGFuY2VPZnNxAH4ADH7DZlp0AAxzeW5jaHJvbml6ZWRzcQB+AAzUS0fPdAALU2NhbGFCYXNpY3NzcQB+AAzxUtuTdAANJGlzSW5zdGFuY2VPZnNxAH4ADIWX0E50AAhtaW5XaGlsZXNxAH4ADPEhRMt0AAZiYXNlMzZzcQB+AAyMMud5dAAJbm90aWZ5QWxsc3EAfgAMdcDPc3QADGlzSW5zdGFuY2VPZnNxAH4ADEiybIV0AAtzcGxpdEluSGFsZnNxAH4ADOBFjYt0AAI9PXNxAH4ADHf5tO10AAVjbG9uZXNxAH4ADHyqWbN0AAhzdW1DaGFyc3NxAH4ADPCJ58N0AAhvZGRSYW5nZXNxAH4ADPg/pYV0AAh0b1N0cmluZ3NxAH4ADJp2rZ90AAIhPXNxAH4ADDKz10h0AAhnZXRDbGFzc3NxAH4ADDA2z7p0AAZtaW5Gb3JzcQB+AAzBGebJdAACbmVzcQB+AAx+yhCOdAADYWRkc3EAfgAMRL02g3QAB2luUmFuZ2VzcQB+AAzu5tP4dAALd29yZENvdW50ZXJzcQB+AAw6oiDQdAACZXFzcQB+AAysK8n+dAACIyNzcQB+AAwqQJqYdAAIZmluYWxpemVzcQB+AAzj1bZYdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAASYmFzaWNzLlNjYWxhQmFzaWNzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Abnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AbQBwc3EAfgByc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFVMAAlpbmhlcml0ZWRxAH4AVUwAB3BhcmVudHNxAH4AVXhxAH4AdnNxAH4AbQBwc3EAfgBydXEAfgBQAAAAAHNxAH4AbQBwc3EAfgBydXEAfgBQAAAAAHNxAH4AbQBwc3EAfgBydXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB1dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB1c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCSdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCTc3EAfgCGdAADQW55c3EAfgCKc3EAfgCNdXEAfgCQAAAAAnNxAH4AknQABXNjYWxhcQB+AJl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZiYXNpY3NzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU/2OE6+dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAakM6XFVzZXJzXElhblxEZXNrdG9wXFVNQVNTXENvdXJzZSBNYXRlcmlhbHNcQ0lDUy0yMjBcSG9tZXdvcmtcMDEtc3RhcnRlci1zdHVkZW50XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQeqQ6q75wIbsjX7nMyIoVQqZYjng==
+external apis:
+0 items
+source infos:
+1 items
+C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\01-starter-student\src\main\scala\basics\ScalaBasics.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT/Y4Tr51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAakM6XFVzZXJzXElhblxEZXNrdG9wXFVNQVNTXENvdXJzZSBNYXRlcmlhbHNcQ0lDUy0yMjBcSG9tZXdvcmtcMDEtc3RhcnRlci1zdHVkZW50XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEv

@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0m[32mPublicScalaBasicsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- [1] The add function should return the addition of a and b[0m[0m
+[0m[[0minfo[0m] [0m[32m- [2] The inRange function should return an inclusive range[0m[0m
+[0m[[0minfo[0m] [0m[32m- [4] The oddRange function should return a range of all odd integers from 1 to n[0m[0m
+[0m[[0minfo[0m] [0m[32m- [5] The minWhile function should return the minimum integer in an array using a while loop[0m[0m
+[0m[[0minfo[0m] [0m[32m- [5] The minFor function should return the minimum integer in an array using a for loop[0m[0m
+[0m[[0minfo[0m] [0m[32m- [5] The minRecursive function should return the minimum integer in an array using recursion[0m[0m
+[0m[[0minfo[0m] [0m[32m- [3] The base36 function should return the base 36 equivalent of the given BigInt[0m[0m
+[0m[[0minfo[0m] [0m[32m- [5] The splitInHalf function should split a string in half[0m[0m
+[0m[[0minfo[0m] [0m[32m- [6] isPalindrome should return true if a string is a palindrome[0m[0m
+[0m[[0minfo[0m] [0m[32m- [3] sumChars should sum up the characters as integers from its parameters[0m[0m
+[0m[[0minfo[0m] [0m[32m- [7] wordCount should count the amount of words in an Array[String][0m[0m

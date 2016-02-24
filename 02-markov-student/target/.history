@@ -1,0 +1,11 @@
+test
+run-main markov.MyMarkov books/dracula.txt boos/oz.txt
+last compile:runMain
+test
+scala -cp tools/grading-assistant.jar submission.tools.PrepareSubmission
+scala -cp tools/grading-assistant.jar autograder.jeeves.Jeeves
+:quit
+exit
+test
+run-main markov.MyMarkov books/dracula.txt books/oz.txt
+test

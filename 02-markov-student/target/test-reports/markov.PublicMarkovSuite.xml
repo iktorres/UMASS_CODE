@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Ian_Torres_PC" name="markov.PublicMarkovSuite" tests="12" errors="0" failures="1" time="0.455">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/><property name="java.vm.version" value="25.60-b23"/><property name="activator.home" value="//C:/Users/Ian/Desktop/UMASS/Course%20Materials/CICS-220/Homework/02-markov-student"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\02-markov-student"/><property name="java.runtime.version" value="1.8.0_60-b27"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Ian\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 8.1"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_60\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015a\bin;C:\Program Files (x86)\scala\bin;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="6.3"/><property name="user.home" value="C:\Users\Ian"/><property name="user.timezone" value="America/New_York"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\02-markov-student\activator-launch-1.3.2.jar"/><property name="user.name" value="Ian"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-220\Homework\02-markov-student\activator-launch-1.3.2.jar"/><property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_60"/><property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="markov.PublicMarkovSuite" name="[1!] Your implementation should not have any while loops" time="0.118">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[1!] Your implementation should not have any foreach loops" time="0.049">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[1!] Your implementation should not have any for comprehensions" time="0.042">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[1!] Your implementation should not have any var variables" time="0.031">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[2] Your splitWords function should split a line of words" time="0.0">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[2] Your getFirstWord should return the first word" time="0.0">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[3] Your addToChain should add a new mapping to a populated chain" time="0.0">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[2] Your getSuffixesLength should return the length of the suffixes" time="0.0">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[1] Your isSuffixNewLine should identify suffixes that are newlines" time="0.0">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[4] Your buildWithWords should populate a chain with correct size" time="0.0">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[5] Your buildWithLines should populate a chain with correct size" time="0.0">
+                                                 
+                                               </testcase><testcase classname="markov.PublicMarkovSuite" name="[10] Your apply should generate the correct text" time="0.215">
+                                                 <failure message="The code passed to eventually never returned normally. Attempted 3 times over 202.21884899999998 milliseconds. Last failure message: &quot;   [You're quite as stiff   &quot;Who are you?&quot;      &quot;Yes,&quot; said the Scarecrow, in a cradle.   So he walked along he wept several tears of sorrow and regret.  These kept her very eyes.    &quot;We!&quot; exclaimed the Lion.    &quot;Thank you,&quot; he answered.  &quot;Now, if you killed a poor deer, and then they seeing all these people drew near the open trap door, and glancing around saw, and glowing he could not leap across it.  He then opened the door.           The soldier with the green box,  &quot;so you must get to Oz to ask Oz to and the others was frightened, an opening in the Palace of Oz.   &quot;Hello!&quot; replied the Woodman.      &quot;Perhaps I have, but I'm too much of a big building, exactly in the story.      &quot;Good gracious!&quot; exclaimed the girl.  &quot;The Lion was also The sides were so small that the Kalidahs turned to face the Kalidahs, and then they seeing all these mice around him with] &quot; did not equal &quot;   [At once the great Head, made out of sight, with all the rust was removed and it seemed that at last he was so awkward that Dorothy woke from her ruby throne to give the beast was a Ball of Fire it became quite wet, and he stood stupidly in one of the Scarecrow found a little girl a good-bye kiss, and no one could climb down, and he dashed up the leg sulkily and led her through many of the dark, so she never took them off had she wished, but of course they took pains not to speak of it, and Oz was a great chattering and flapping of wings, as the tiger had said, and its body covered with a carefully painted face.  I have played Wizard for so many years she has of the outer wall, and they got along quite well at first, for they had generously saved him from curiosity, he is a great chattering and laughing, and the Cowardly Lion.     They now turned and flew away with the green girl good-bye, and they had begun to look into the green glow became brighter and brighter,] &quot; your text did not match ours." type="org.scalatest.exceptions.TestFailedDueToTimeoutException">org.scalatest.exceptions.TestFailedDueToTimeoutException: The code passed to eventually never returned normally. Attempted 3 times over 202.21884899999998 milliseconds. Last failure message: &quot;   [You're quite as stiff   &quot;Who are you?&quot;      &quot;Yes,&quot; said the Scarecrow, in a cradle.   So he walked along he wept several tears of sorrow and regret.  These kept her very eyes.    &quot;We!&quot; exclaimed the Lion.    &quot;Thank you,&quot; he answered.  &quot;Now, if you killed a poor deer, and then they seeing all these people drew near the open trap door, and glancing around saw, and glowing he could not leap across it.  He then opened the door.           The soldier with the green box,  &quot;so you must get to Oz to ask Oz to and the others was frightened, an opening in the Palace of Oz.   &quot;Hello!&quot; replied the Woodman.      &quot;Perhaps I have, but I'm too much of a big building, exactly in the story.      &quot;Good gracious!&quot; exclaimed the girl.  &quot;The Lion was also The sides were so small that the Kalidahs turned to face the Kalidahs, and then they seeing all these mice around him with] &quot; did not equal &quot;   [At once the great Head, made out of sight, with all the rust was removed and it seemed that at last he was so awkward that Dorothy woke from her ruby throne to give the beast was a Ball of Fire it became quite wet, and he stood stupidly in one of the Scarecrow found a little girl a good-bye kiss, and no one could climb down, and he dashed up the leg sulkily and led her through many of the dark, so she never took them off had she wished, but of course they took pains not to speak of it, and Oz was a great chattering and flapping of wings, as the tiger had said, and its body covered with a carefully painted face.  I have played Wizard for so many years she has of the outer wall, and they got along quite well at first, for they had generously saved him from curiosity, he is a great chattering and laughing, and the Cowardly Lion.     They now turned and flew away with the green girl good-bye, and they had begun to look into the green glow became brighter and brighter,] &quot; your text did not match ours.
+	at org.scalatest.concurrent.Eventually$class.tryTryAgain$1(Eventually.scala:420)
+	at org.scalatest.concurrent.Eventually$class.eventually(Eventually.scala:438)
+	at markov.PublicMarkovSuite.eventually(PublicMarkovSuite.scala:11)
+	at markov.PublicMarkovSuite$$anonfun$12.apply$mcV$sp(PublicMarkovSuite.scala:122)
+	at markov.PublicMarkovSuite$$anonfun$12.apply(PublicMarkovSuite.scala:117)
+	at markov.PublicMarkovSuite$$anonfun$12.apply(PublicMarkovSuite.scala:117)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1555)
+	at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:163)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:175)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1555)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)
+	at org.scalatest.FunSuiteLike$class.runTests(FunSuiteLike.scala:208)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1555)
+	at org.scalatest.Suite$class.run(Suite.scala:1424)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1555)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:212)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:212)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)
+	at org.scalatest.FunSuiteLike$class.run(FunSuiteLike.scala:212)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1555)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:466)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:677)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.scalatest.exceptions.TestFailedException: &quot;   [You're quite as stiff   &quot;Who are you?&quot;      &quot;Yes,&quot; said the Scarecrow, in a cradle.   So he walked along he wept several tears of sorrow and regret.  These kept her very eyes.    &quot;We!&quot; exclaimed the Lion.    &quot;Thank you,&quot; he answered.  &quot;Now, if you killed a poor deer, and then they seeing all these people drew near the open trap door, and glancing around saw, and glowing he could not leap across it.  He then opened the door.           The soldier with the green box,  &quot;so you must get to Oz to ask Oz to and the others was frightened, an opening in the Palace of Oz.   &quot;Hello!&quot; replied the Woodman.      &quot;Perhaps I have, but I'm too much of a big building, exactly in the story.      &quot;Good gracious!&quot; exclaimed the girl.  &quot;The Lion was also The sides were so small that the Kalidahs turned to face the Kalidahs, and then they seeing all these mice around him with] &quot; did not equal &quot;   [At once the great Head, made out of sight, with all the rust was removed and it seemed that at last he was so awkward that Dorothy woke from her ruby throne to give the beast was a Ball of Fire it became quite wet, and he stood stupidly in one of the Scarecrow found a little girl a good-bye kiss, and no one could climb down, and he dashed up the leg sulkily and led her through many of the dark, so she never took them off had she wished, but of course they took pains not to speak of it, and Oz was a great chattering and flapping of wings, as the tiger had said, and its body covered with a carefully painted face.  I have played Wizard for so many years she has of the outer wall, and they got along quite well at first, for they had generously saved him from curiosity, he is a great chattering and laughing, and the Cowardly Lion.     They now turned and flew away with the green girl good-bye, and they had begun to look into the green glow became brighter and brighter,] &quot; your text did not match ours
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:500)
+	at org.scalatest.FunSuite.newAssertionFailedException(FunSuite.scala:1555)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:466)
+	at markov.PublicMarkovSuite$$anonfun$12$$anonfun$apply$mcV$sp$12.apply$mcV$sp(PublicMarkovSuite.scala:129)
+	at markov.PublicMarkovSuite$$anonfun$12$$anonfun$apply$mcV$sp$12.apply(PublicMarkovSuite.scala:122)
+	at markov.PublicMarkovSuite$$anonfun$12$$anonfun$apply$mcV$sp$12.apply(PublicMarkovSuite.scala:122)
+	at org.scalatest.concurrent.Eventually$class.makeAValiantAttempt$1(Eventually.scala:394)
+	at org.scalatest.concurrent.Eventually$class.tryTryAgain$1(Eventually.scala:408)
+	... 65 more
+</failure>
+                                               </testcase>
+                     <system-out></system-out>
+                     <system-err></system-err>
+                   </testsuite>

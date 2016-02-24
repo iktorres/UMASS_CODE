@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="make_jar" name="Create Turn-in Jar for Project">
+  <taskdef resource="net/sf/ant4eclipse/antlib.xml" classpath="ant4eclipse.jar" />
+  <getOutputpath property="my.output.path" project="."/>
+  <target name="make_jar">
+    <sequential>
+      <mkdir dir="temp" />
+      <echoxml file="temp/.classpath">
+        <classpath>
+          <classpathentry kind="src" path="src"/>
+          <classpathentry kind="src" path="test"/>
+          <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+          <classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
+          <classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+          <classpathentry kind="output" path="bin"/>
+        </classpath>
+      </echoxml>
+      <echoxml file="temp/.project">
+        <projectDescription>
+          <name>java-set</name>
+          <comment></comment>
+          <projects></projects>
+       	  <buildSpec>
+            <buildCommand>
+              <name>org.eclipse.jdt.core.javabuilder</name>
+              <arguments></arguments>
+            </buildCommand>
+          </buildSpec>
+          <natures>
+            <nature>org.eclipse.jdt.core.javanature</nature>
+          </natures>
+        </projectDescription>
+      </echoxml>
+      <delete file="java-set-submit.jar" quiet="true" />
+      <jar destfile="java-set-submit.jar" filesetmanifest="mergewithoutmain">
+        <manifest>
+          <attribute name="Built-By" value="${user.name}"/>
+          <attribute name="Class-Path" value="."/>
+        </manifest>
+        <fileset dir="." includes="**/*.java"/>
+        <zipfileset dir="${my.output.path}" prefix="bin" includes="**/*.class" />
+        <zipfileset dir="temp" includes=".classpath .project" />
+        <zipfileset dir="lib" prefix="lib" includes="*.jar"/>
+      </jar>
+      <delete dir="temp" quiet="true" />
+    </sequential>
+  </target>
+</project>

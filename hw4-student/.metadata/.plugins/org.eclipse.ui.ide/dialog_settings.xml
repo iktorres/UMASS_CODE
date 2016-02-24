@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.aether.maven.feature:3.1.0.20140706-2237"/>
+		<item value="org.eclipse.cvs:1.4.100.v20150204-1700"/>
+		<item value="org.eclipse.egit.mylyn:3.4.2.201412180340-r"/>
+		<item value="org.eclipse.egit:3.4.2.201412180340-r"/>
+		<item value="org.eclipse.emf.common:2.10.1.v20150123-0348"/>
+		<item value="org.eclipse.emf.ecore:2.10.2.v20150123-0348"/>
+		<item value="org.eclipse.epp.mpc:1.3.2.v20150218-2039"/>
+		<item value="org.eclipse.help:2.0.103.v20150204-1700"/>
+		<item value="org.eclipse.jgit:3.4.2.201412180340-r"/>
+		<item value="org.eclipse.m2e.feature:1.5.1.20150109-1820"/>
+		<item value="org.eclipse.m2e.logback.feature:1.5.1.20150109-1820"/>
+		<item value="org.eclipse.mylyn.bugzilla_feature:3.14.2.v20150217-2341"/>
+		<item value="org.eclipse.mylyn.builds:1.6.2.v20150218-0552"/>
+		<item value="org.eclipse.mylyn.commons.identity:1.6.2.v20150217-2244"/>
+		<item value="org.eclipse.mylyn.commons.notifications:1.6.2.v20150217-2244"/>
+		<item value="org.eclipse.mylyn.commons.repositories.http:1.6.2.v20150217-2244"/>
+		<item value="org.eclipse.mylyn.commons.repositories:1.6.2.v20150217-2244"/>
+		<item value="org.eclipse.mylyn.commons:3.14.2.v20150217-2244"/>
+		<item value="org.eclipse.mylyn.context_feature:3.14.2.v20150218-0125"/>
+		<item value="org.eclipse.mylyn.cvs:1.6.2.v20150217-2249"/>
+		<item value="org.eclipse.mylyn.discovery:3.14.2.v20150217-2244"/>
+		<item value="org.eclipse.mylyn.git:1.6.2.v20150217-2249"/>
+		<item value="org.eclipse.mylyn.hudson:1.6.2.v20150218-0552"/>
+		<item value="org.eclipse.mylyn.ide_feature:3.14.2.v20150218-0125"/>
+		<item value="org.eclipse.mylyn.java_feature:3.14.2.v20150218-0125"/>
+		<item value="org.eclipse.mylyn.monitor:3.14.2.v20150217-2244"/>
+		<item value="org.eclipse.mylyn.tasks.ide:3.14.2.v20150217-2341"/>
+		<item value="org.eclipse.mylyn.team_feature:3.14.2.v20150218-0125"/>
+		<item value="org.eclipse.mylyn.versions:1.6.2.v20150217-2249"/>
+		<item value="org.eclipse.mylyn.wikitext_feature:2.3.2.v20150217-2315"/>
+		<item value="org.eclipse.mylyn_feature:3.14.2.v20150217-2341"/>
+		<item value="org.eclipse.rcp:4.4.2.v20150204-1700"/>
+		<item value="org.eclipse.recommenders.rcp.feature:2.1.12.v20150218-0817"/>
+		<item value="org.eclipse.wb.core.feature:1.7.0.r44x201405021445"/>
+		<item value="org.eclipse.wb.core.ui.feature:1.7.0.r44x201405021455"/>
+		<item value="org.eclipse.wb.layout.group.feature:1.7.0.r44x201405021517"/>
+		<item value="org.eclipse.wb.swing.feature:1.7.0.r44x201405021531"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.6.3.v201501292352"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Ian\Desktop\UMASS\Course Materials\CICS-240\Homework\hw4-student"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>
