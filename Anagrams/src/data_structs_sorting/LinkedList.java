@@ -1,9 +1,15 @@
 package data_structs_sorting;
 
+//import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+//import java.io.PrintWriter;
+
 public class LinkedList<E> {
 	
 	//Initialize as the head of the LinkedList<E>
 	private Node<E> head;
+	private Node<E> last;
 	
 	//Size of the LinkedList<E>
 	private int     size = 0;
@@ -19,17 +25,20 @@ public class LinkedList<E> {
 	 */
 	public LinkedList(E element) {
 		this.head = new Node<E>(element);
+		this.last = this.head;
 		this.size = 1;
 	}
 	
 	/*
 	 * Add an element to the end of the LinkedList<E>
+	 * thought it could be used like this, but was too
+	 * slow!
 	 * 
 	 * @param  element : element of type E to add
 	 * 
 	 * @return void
 	 */
-	public void add(E element) {
+	public void addSlow(E element) {
 		Node<E> temp = this.head;
 		Node<E> temp2= null;
 		int limit    = this.size - 1;
@@ -46,6 +55,25 @@ public class LinkedList<E> {
 			count++;
 		}
 		temp.setNext(new Node<E>(element));
+		this.size++;
+	}
+	
+	/*
+	 * Add an element to the end of the LinkedList<E>
+	 * 
+	 * @param  element : element of type E to add
+	 * 
+	 * @return void
+	 */
+	public void add(E element) {
+		if(this.size == 0) {
+			this.head = new Node<E>(element);
+			this.head.setNext(this.last);
+			this.last = this.head;
+		}else {
+			this.last.setNext(new Node<E>(element));
+			this.last = this.last.getNext();
+		}
 		this.size++;
 	}
 	
@@ -87,6 +115,10 @@ public class LinkedList<E> {
 	
 	public int size() {
 		return this.size;
+	}
+	
+	public void clear() {
+		this.head = null;
 	}
 	
 	/*
@@ -224,17 +256,38 @@ public class LinkedList<E> {
 	 * Print the elements of the LinkedList
 	 * @return void
 	 */
-	public void printList() {
-		for(int i = 0; i < this.size; i++) {
-			System.out.print(this.get(i) + " -> ");
+	public void printList(String file) {
+		FileWriter printer = null;
+		try {
+			printer = new FileWriter(".\\src\\output\\"+file,true);
+			for(int i = 0; i < this.size; i++) {
+				printer.write(this.get(i).toString() + " -> ");
+			}
+			printer.write("\n");
+			printer.flush();
+			printer.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		System.out.println();
 	}
 	
 	//Debugging main method
 //	public static void main(String[] args) {
 //		
 //		LinkedList<String> llist= new LinkedList<String>();
+//		System.out.println("Size -> " + llist.size());
+//		llist.add("Hello");
+//		System.out.println(llist.get(0));
+//		System.out.println("Size -> " + llist.size());
+//		llist.remove(0);
+//		System.out.println("Size -> " + llist.size());
+//		llist.add("World");
+//		llist.add("My");
+//		llist.add("Name");
+//		llist.add("Is");
+//		llist.add("Ian");
+//		llist.printList();
 //		LinkedList<String> list = new LinkedList<String>("Brooo");
 //		
 //		llist.add("New");
