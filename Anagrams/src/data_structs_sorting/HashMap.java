@@ -1,5 +1,8 @@
 package data_structs_sorting;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class HashMap {
 	
 	private Vector<Entry<Long,LinkedList<String>>> vec;
@@ -28,8 +31,8 @@ public class HashMap {
 		if(vec.get(hash) == null) {
 			vec.set(hash, new Entry<Long,LinkedList<String>>(key,new LinkedList<String>(contents)));
 			//System.out.println("Here1 -> " + contents);
-		}else if(vec.get(hash).getKey().equals(key)/* && 
-				QuickSort.alphabetize(vec.get(hash).getContents().get(0)).equals(QuickSort.alphabetize(contents))*/) {
+		}else if(vec.get(hash).getKey().equals(key) && 
+				QuickSort.alphabetize(vec.get(hash).getContents().get(0)).equals(QuickSort.alphabetize(contents))) {
 			vec.get(hash).getContents().add(contents);
 			//System.out.println("Here2 -> " + contents);
 		}else {
@@ -39,8 +42,8 @@ public class HashMap {
 			if(vec.get(hash) == null) {
 				vec.set(hash, new Entry<Long,LinkedList<String>>(key,new LinkedList<String>(contents)));
 				//System.out.println("Here1 -> " + contents);
-			}else if(vec.get(hash).getKey().equals(key)/* && 
-					QuickSort.alphabetize(vec.get(hash).getContents().get(0)).equals(QuickSort.alphabetize(contents))*/) {
+			}else if(vec.get(hash).getKey().equals(key) && 
+					QuickSort.alphabetize(vec.get(hash).getContents().get(0)).equals(QuickSort.alphabetize(contents))) {
 				vec.get(hash).getContents().add(contents);
 				//System.out.println("Here2_2 -> " + contents);
 			}else {
@@ -51,10 +54,41 @@ public class HashMap {
 	}
 	
 	public void printMap(String file) {
+		FileWriter printer = null;
+		try {
+			printer = new FileWriter(".\\src\\output\\"+file,true);
+			int size = this.vec.size();
+			for(int i = 0; i < size; i++) {
+				if(vec.get(i) != null) {
+					vec.get(i).getContents().printList(printer);
+				}	
+			}
+			printer.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void findMoreThanFive() {
+		int size = this.vec.size();
+		int count = 0;
+		for(int i = 0; i < size; i++) {
+			if(vec.get(i) != null) {
+				if(vec.get(i).getContents().size() > 5) {
+					vec.get(i).getContents().printList2();
+					count++;
+				}
+			}	
+		}
+		System.out.println("Count -> " + count);
+	}
+	
+	public void printMap2() {
 		int size = this.vec.size();
 		for(int i = 0; i < size; i++) {
 			if(vec.get(i) != null) {
-				vec.get(i).getContents().printList(file);
+				vec.get(i).getContents().printList2();
 			}	
 		}
 	}

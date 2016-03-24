@@ -35,15 +35,16 @@ public class Testing {
 				myMap.put(Hashing.hashCode(QuickSort.alphabetize(line)), line);
 				//System.out.println("Count -> " + count);
 				//count++;
-			}	
+			}
 			myMap.printMap("anagram1");
+			//myMap.printMap2();
 			long end = System.currentTimeMillis();
 			System.out.println("time (ms) -> " + (end-start));
-			
+			//myMap.findMoreThanFive();
 			wiz = new Scanner(new File(currentDirectory2));
 			myMap = new HashMap();
 			start = System.currentTimeMillis();
-			//count = 0;
+//			//count = 0;
 			while(wiz.hasNextLine()) {
 				line = wiz.nextLine();
 				myMap.put(Hashing.hashCode(QuickSort.alphabetize(line)), line);

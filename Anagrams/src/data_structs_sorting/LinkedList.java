@@ -256,20 +256,27 @@ public class LinkedList<E> {
 	 * Print the elements of the LinkedList
 	 * @return void
 	 */
-	public void printList(String file) {
-		FileWriter printer = null;
+	public void printList(FileWriter printer) {
+		//FileWriter printer = null;
 		try {
-			printer = new FileWriter(".\\src\\output\\"+file,true);
+			//printer = new FileWriter(".\\src\\output\\"+file,true);
 			for(int i = 0; i < this.size; i++) {
 				printer.write(this.get(i).toString() + " -> ");
 			}
 			printer.write("\n");
 			printer.flush();
-			printer.close();
+			//printer.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public void printList2() {
+		for(int i = 0; i < this.size; i++) {
+			System.out.print(this.get(i).toString() + " -> ");
+		}
+		System.out.println();
 	}
 	
 	//Debugging main method
