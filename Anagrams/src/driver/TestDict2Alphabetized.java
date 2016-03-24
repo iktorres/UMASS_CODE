@@ -1,12 +1,14 @@
 package driver;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Scanner;
+//import java.io.File;
+//import java.io.IOException;
+//import java.util.ArrayList;
+//import java.util.Scanner;
+//
+//import data_structs_sorting.*;
 
-import data_structs_sorting.*;
 
+//This test was used to test the capabilities of LinkedList in conjunction with QuickSort on dict2
 public class TestDict2Alphabetized {
 //	static LinkedList<Long> list  = new LinkedList<Long>();
 //	static LinkedList<String>  slist = new LinkedList<String>();

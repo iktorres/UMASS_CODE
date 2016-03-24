@@ -1,5 +1,7 @@
 package data_structs_sorting;
 
+//An object used purely for testing purposes
+//This object is not used it the main executable
 public class Tuple<L,R> {
 	private L left;
 	private R right;

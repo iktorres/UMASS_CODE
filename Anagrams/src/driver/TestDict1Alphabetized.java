@@ -11,6 +11,7 @@ import data_structs_sorting.QuickSort;;
 
 public class TestDict1Alphabetized {
 	
+	//Used to test the capabilities of the QuickSort algorithm on the dict1
 	public static void initAndTest() {
 		//Catch possible File IOException
 		try {

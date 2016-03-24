@@ -1,15 +1,11 @@
 package data_structs_sorting;
 
+//Singleton design pattern used since a Java's sorting algorithm is implemented
+//in a similar manner
 public final class QuickSort {
 	
 	/*
 	 * Outputs a word in alphabetical order
-	 * 
-	 * @author        : Ian Torres
-	 * 
-	 * @version       : 1.0
-	 * 
-	 * @since         : 2016-03-16
 	 * 
 	 * @param word    : a word to be alphabetized
 	 * 
@@ -21,13 +17,6 @@ public final class QuickSort {
 		int length = word.length();
 		String retWord = "";
 		sort(orderd, 0,length);
-		
-		//Debug loop
-		/*for(int i = 0; i < length; i++) {
-			System.out.print(word.charAt(orderd[i][0]) +  " , ");
-			System.out.println("Hello -> " + orderd[i][0] + " , " + orderd[i][1]);
-		}*/
-		
 		for(int i = 0; i < length; i++) {
 			retWord += word.charAt(orderd[i][0]);
 		}
@@ -35,13 +24,7 @@ public final class QuickSort {
 	}
 	
 	/*
-	 * Quicksort: Implemented from the book using JAVA
-	 * 
-	 * @author  : Ian Torres with help from the book
-	 * 
-	 * @version : 1.0
-	 * 
-	 * @since   : 2016-03-16
+	 * QuickSort: Implemented from the book using JAVA
 	 * 
 	 * @param a : the order array
 	 * 
@@ -53,9 +36,7 @@ public final class QuickSort {
 	 */
 	private static void sort(int[][] a, int p, int r) {
 		if(p < r) {
-			//System.out.println("Stack Call");
 			int q = partition(a,p,r);
-			//System.out.println("P,Q -> " + p + "," + q); 
 			sort(a,p,q);
 			sort(a,q+1,r);
 		}
@@ -63,12 +44,6 @@ public final class QuickSort {
 	
 	/*
 	 * Takes the next pivot point and swaps values
-	 * 
-	 * @author   :  Ian Torres with help from the book
-	 * 
-	 * @version  :  1.0
-	 * 
-	 * @since    :  2016-03-16
 	 * 
 	 * @param a  :  index array
 	 * 
@@ -81,8 +56,6 @@ public final class QuickSort {
 	private static int partition(int[][] a, int p, int r) {
 		int i = p-1;
 		for(int j = p; j <= r-1; j++) {
-			//System.out.println("R - 1 -> " + (r-1));
-			//System.out.println("j -> " + j);
 			if(a[j][1] < a[r-1][1]) {
 				i++;
 				a = swap(a,i,j);
@@ -96,12 +69,6 @@ public final class QuickSort {
 	 * Determine the ascii values of the characters
 	 * putting them in the 2nd column and the original
 	 * index of the letters in the 1st column
-	 * 
-	 * @author        : Ian Torres
-	 * 
-	 * @version       : 1.0
-	 * 
-	 * @since         : 2016-03-16
 	 *  
 	 * @param word    : the word to be indexed
 	 * 
@@ -123,12 +90,6 @@ public final class QuickSort {
 	 * Takes a character and classifies it from 0..25
 	 * based on its ascii value
 	 * 
-	 * @author          : Ian Torres
-	 * 
-	 * @version         : 1.0
-	 * 
-	 * @since           : 2016-03-16
-	 * 
 	 * @param character : character to be classified
 	 * 
 	 * @return value    : an integer value of the character
@@ -138,12 +99,11 @@ public final class QuickSort {
 	}
 	
 	/*
-	 * @author Ian Torres
-	 * @version 1.0
-	 * @since 2016-03-16
-	 * @param array[][] : Array of index values
-	 * @param i : first index
-	 * @param j : second index
+	 * Used to swap the rows of an array
+	 * 
+	 * @param array[][]  : Array of index values
+	 * @param i          : first index
+	 * @param j          : second index
 	 * @return array[][] : swapped array
 	 * 
 	 */

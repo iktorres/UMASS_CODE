@@ -6,6 +6,8 @@ import java.io.PrintWriter;
 //import data_structs_sorting.*;
 
 public class Test {
+	
+	//Used as a review for my own purposes to write to a file as well as further testing of LinkedList
 	public static void main (String[] args) {
 		try {
 			PrintWriter printer = new PrintWriter(".\\src\\output\\anagram1");
