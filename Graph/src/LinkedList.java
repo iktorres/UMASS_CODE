@@ -243,7 +243,7 @@ public class LinkedList<E> extends Object{
 			
 			//If the desired element in the LinkedList is reached
 			//return the index of that element
-			if(temp.getElement() == element) {
+			if(temp.getElement().equals(element)) {
 				return count;
 			}
 			

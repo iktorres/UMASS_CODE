@@ -31,4 +31,10 @@ public class Tuple<L,R> {
 		return ("" + this.left.toString() + " , " + this.right.toString());
 	}
 	
+	public boolean equals(Tuple tup) {
+		if(this.left == tup.getLeft() && this.right == tup.getRight())
+			return true;
+		return false;
+	}
+	
 }

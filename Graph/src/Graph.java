@@ -39,7 +39,7 @@ public class Graph {
 		}
 		for(int i = 1; i < this.graph.size(); i++) {
 			for(int j = 1; j < this.graph.get(i).size(); j++) {
-				if(!this.graph.get(this.graph.get(i).get(j).getLeft()).contains(new Tuple<Integer,Integer>(i,2)))
+				if(!(this.graph.get(this.graph.get(i).get(j).getLeft()).contains(new Tuple<Integer,Integer>(i,2))))
 					this.graph.get(this.graph.get(i).get(j).getLeft()).add(new Tuple<Integer,Integer>(i,2));
 			}
 		}
@@ -51,7 +51,6 @@ public class Graph {
 		int temp2 = 0;
 		int temp3 = 0;
 		int comp1 = 0;
-		int comp2 = 0;
 		for(int i = 1; i < this.graph.size(); i++) {
 			temp = this.graph.get(i).get(0).getRight();
 			for(int k = 1; k < this.graph.get(i).size(); k++) {
