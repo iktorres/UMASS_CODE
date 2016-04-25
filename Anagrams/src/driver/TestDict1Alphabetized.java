@@ -31,7 +31,7 @@ public class TestDict1Alphabetized {
 				line = wiz.nextLine();
 				System.out.println(line + "    ,    " + QuickSort.alphabetize(line));
 			}
-			
+			wiz.close();
 		}catch(IOException ex) {
 			System.out.println("File IO error");
 		}

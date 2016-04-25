@@ -124,7 +124,7 @@ public class HashMap {
 		try {
 			
 			//Initialize file object to file
-			mine = new File(".\\src\\output\\"+file);
+			mine = new File("./"+file);
 			
 			//If the file already exists delete it so additional content is
 			//not appended to it
@@ -132,7 +132,7 @@ public class HashMap {
 				mine.delete();
 			
 			//Initialize file writing object to the file location
-			printer = new FileWriter(".\\src\\output\\"+file,true);
+			printer = new FileWriter("./"+file,true);
 			
 			//Initialize the size of the Vector
 			int size = this.vec.size();
